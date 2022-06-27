@@ -11,12 +11,12 @@
 
     public class Program
     {
-        private const string EndpointUrl = "";
-        private const string AuthorizationKey = "";
+        private const string EndpointUrl = "https://polycosmosestevez.documents.azure.com:443";
+        private const string AuthorizationKey = "JSgWH5PPi88UIsw0LKUrwlkgTNE7mnOZ0PkA9LLQDykvjdjmEkWmm2yHt5bihHO35MNHu0XpTHo9WBD0eiN0hg==";
         private const string DatabaseName = "Retail";
         private const string ContainerName = "Online";
-        private const string PrimaryKey = "";
-        private const string JsonFilePath = "";
+        private const string PrimaryKey  = "/Category";
+        private const string JsonFilePath = "models.json";
 
         static private int amountToInsert;
         static List<Model> models;
